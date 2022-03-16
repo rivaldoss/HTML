@@ -1,0 +1,130 @@
+:root{
+    --vermelho:#E50914;
+    --preto: #141414;
+
+}
+# {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;   
+    
+}
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+
+}
+header .logo{
+
+    color: #E50914;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 0;  
+
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+    font-size: 30px;
+}
+header nav a:hover{
+    color: #fff;
+}
+.filme-principal{
+    font-size: 16px;
+    background: url(../imagens/house2.jpg);
+    height: 500px;
+    background-size: cover;   
+    
+}
+.filme-principal .titulo{
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.filme-principal .descricao{
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+.filme-principal .botao{
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    padding: 20px 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.50);
+    transition: ease;
+    margin-left: 20px;
+    
+
+}
+.filme-principal .botao:hover{
+    background-color: #AAA;
+    color: black;
+}
+
+    .container{
+        margin-left: 0px;
+        text-align: left;
+    }
+    .container .logo{
+        
+        
+       
+        
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    .botao i{
+        padding: 5px;
+    }
+    .botao a{
+        text-decoration: none;
+
+    }
+    .box-filme{
+        height: 100%;
+        width: 100%;
+        display: block;
+        cursor: pointer;
+
+    }
+    .rodape{
+        background-color:yellow;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        margin-top: 0px;
+    
+    }
+    .rodape .icone{
+        text-align: center;
+        font-size: 80px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color:white;
+    }
+    .carrocel-filmes{
+        margin-top: 10px;
+    }
+    .insta{
+        color: #E50914;
+    }
